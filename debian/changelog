@@ -1,0 +1,5 @@
+golang-github-zeromq-goczmq (4.2.0-1) unstable; urgency=medium
+
+  * Initial debian release
+
+ -- John Southworth <jx756k@att.com>  Wed, 04 Dec 2019 12:08:41 -0800

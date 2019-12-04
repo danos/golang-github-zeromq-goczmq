@@ -1,0 +1,26 @@
+Source: golang-github-zeromq-goczmq
+Section: devel
+Priority: extra
+Maintainer: Vyatta Package Maintainers <DL-vyatta-help@att.com>
+Build-Depends: debhelper (>= 9),
+ dh-golang,
+ golang-go,
+ libczmq-dev,
+ libsodium-dev,
+ pkg-config
+Standards-Version: 3.9.6
+Homepage: https://github.com/zeromq/goczmq
+
+Package: golang-github-zeromq-goczmq-dev
+Architecture: all
+Depends:
+ libczmq-dev,
+ libsodium-dev,
+ pkg-config,
+ ${misc:Depends},
+ ${shlibs:Depends}
+Built-Using: ${misc:Built-Using}
+Description: Go bindings for czmq
+ Package "goczmq" is an interface to the CZMQ v4.2 API.
+ .
+ This package contains the source.
